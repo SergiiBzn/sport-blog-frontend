@@ -50,7 +50,6 @@ export default function CreatePost() {
   return (
     <div className='max-w-3xl mx-auto'>
       <h1 className='text-2xl font-bold mb-6'>Create Post</h1>
-      <p role='alert'>{error}</p>
       <form
         onSubmit={handleSubmit}
         className='rounded-xl border bg-white p-5 shadow-sm space-y-5'
@@ -141,15 +140,6 @@ export default function CreatePost() {
                focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200'
           />
         </div>
-        {coverOk && (
-          <img
-            src={form.cover}
-            alt='cover'
-            onError={(e) => {
-              e.currentTarget.style.display = 'none';
-            }}
-          />
-        )}
         {error && (
           <div
             role='alert'
