@@ -3,6 +3,8 @@
 **Sport Blog** ist eine moderne Webanwendung zum Lesen und Verwalten von Sportartikeln.  
 Das Frontend wurde mit **React**, **Vite** und **TailwindCSS** entwickelt und bietet eine schnelle, responsive und benutzerfreundliche Oberfläche.
 
+🔗 **Live Demo:** https://sport-blog-frontend.onrender.com/
+
 ## Funktionen
 - Anzeige und Navigation von Blogartikeln  
 - Dynamisches Routing mit React Router  
@@ -22,6 +24,3 @@ cd sport-blog-frontend
 npm install
 npm run dev
 ```
-
-## Link:
-https://sport-blog-frontend.onrender.com/
